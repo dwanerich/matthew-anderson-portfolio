@@ -1,4 +1,3 @@
-import { maxHeight } from '@mui/system';
 import './nav.css'
 
 

@@ -12,7 +12,7 @@ body{
 	line-height: 1.7;
 	color: #ececee;
 	background-color: #000000;
-	overflow: hidden;
+	/* overflow: hidden; */
   /* background-image: url('./img/nicole_richie_1.png');
   background-position: center;
   background-repeat: no-repeat;
