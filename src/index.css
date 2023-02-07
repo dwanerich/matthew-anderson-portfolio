@@ -13,10 +13,10 @@ body{
 	color: #ececee;
 	background-color: #000000;
 	overflow: hidden;
-  background-image: url('./img/The-Mighty-Company-1.0.0.jpg');
+  /* background-image: url('./img/nicole_richie_1.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 25%; */
   height: 100vh;
   width: 100%;
 }
@@ -39,7 +39,7 @@ h1{
   line-height: 1;
   color: #faf8f2;
   text-align: center;
-  -webkit-text-stroke: 2px #020202;
+  -webkit-text-stroke: 2px #ffffff;
   text-stroke: 2px #ffeba7;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
@@ -221,7 +221,7 @@ h2{
 }
 .nav ul li a:hover{
   text-decoration: none;
-  color: #ffeba7;
+  color: #d4a3d0;
 }
 .nav ul li a:after{
   display: block;
