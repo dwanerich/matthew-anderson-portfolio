@@ -27,7 +27,7 @@ const Home = () => {
 
   alt="Fascina Collection"
 />
-	<h1>Welcome to Chic Inspiration -NYC's Top Image Consultant & Personal Shopper </h1>
+	<h1>Welcome to the official page of Ariana Weisner - Nyc's Top Image Consultant & Personal Shopper </h1>
 
 	Ariana is a New York City based, personal shopper and image consulting firm for both women and men. Our mission is to help our clients create the image they are looking to portray all while making them feel more beautiful, confident and educated on how to shop.
 <br /> <br />
