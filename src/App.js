@@ -17,6 +17,7 @@ function App() {
         <Route exact path="/advertising" element={<Advertising />}></Route>
         <Route exact path="/editorial" element={<Editorial />}></Route>
         <Route exact path="/about" element={<About />}></Route>
+
       </Routes>
 
     </div>
