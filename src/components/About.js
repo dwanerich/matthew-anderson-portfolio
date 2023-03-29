@@ -4,7 +4,7 @@ import './nav.css'
 const About = () => {
   return (
 
-<div class="" style={{border: 'solid  .25px'}}>
+<div>
   		<h1 class="mb-0">ABOUT</h1>
 
       <div class='row' style={{height: 1000}}>
