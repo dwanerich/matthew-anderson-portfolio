@@ -13,7 +13,7 @@ const About = () => {
       </div>
 
       <div class='column'>
-      <h1 style={{color: 'white'}}>
+      <h1>
       Ariana Weisner started her love affair with fashion at a very young age.
       At 17 years old she moved to Paris, France for the summer to study fashion design at Parson’s School of Design.
       A few years later she began interning for the most famous brand in the world synonymous to fashion, Vogue Magazine.

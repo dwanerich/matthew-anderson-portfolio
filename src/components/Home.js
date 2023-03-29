@@ -6,13 +6,13 @@ import ModalImage from 'react-modal-image'
 const Home = () => {
   return (
 <div>
-
+<center>
+			<img src={require("../img/ariana.white.png")} alt={"Ariana Weisner Logo"} style={{height: '100%'}}/>
+</center>
 <div class="section-center">
-			{/* <img src={require("../img/ariana.logo.png")} alt={"Ariana Weisner Logo"} style={{height: '100%'}}/> */}
 
 
   	</div>
-  		<h1 class="mb-0">ARIANA WEISNER <br /> stylist | personal shopper</h1> <hr />
       <center>
 
 <div class="mb-0">
