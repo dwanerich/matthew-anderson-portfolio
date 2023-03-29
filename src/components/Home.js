@@ -16,8 +16,8 @@ const Home = () => {
 <div class="mb-0">
 
 <ModalImage
-  large='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
   small='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
+  large='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
 
   alt="Porter Magazine"
 />
@@ -29,7 +29,7 @@ const Home = () => {
 />
 	<h1>Welcome to the official page of Ariana Weisner - Nyc's Top Image Consultant & Personal Shopper </h1>
 
-	Ariana is a New York City based, personal shopper and image consulting firm for both women and men. Our mission is to help our clients create the image they are looking to portray all while making them feel more beautiful, confident and educated on how to shop.
+	{/* Ariana is a New York City based, personal shopper and image consulting firm for both women and men. Our mission is to help our clients create the image they are looking to portray all while making them feel more beautiful, confident and educated on how to shop.
 <br /> <br />
 WHY AN IMAGE MAKEOVER?
 <br /> <br />
@@ -43,7 +43,7 @@ WHAT DOES AN IMAGE CONSULTANT /
 PERSONAL SHOPPER DO?
 <br /> <br />
 A personal shopper is also known as a "stylist" or "image consultant", and is one who provides image makeover and image consultation services to celebrities, fashion models, and personal clients. They hand select the finest clothing and accessories for public figures,
-models, celebrities as well as for their personal clients and help them to enhance their image and personal appearance. They are often assisted by a team of fashion designers, photographers, make-up artists, and hair stylists.
+models, celebrities as well as for their personal clients and help them to enhance their image and personal appearance. They are often assisted by a team of fashion designers, photographers, make-up artists, and hair stylists. */}
 
 	</div>
 </div>

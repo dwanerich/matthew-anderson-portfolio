@@ -20,6 +20,15 @@ body{
   height: 100vh;
   width: 100%;
 }
+
+.row {
+  display: flex;
+  flex: wrap;
+}
+
+.column {
+  flex: 50%;
+}
 .section-center{
   position: absolute;
   top: 50%;
