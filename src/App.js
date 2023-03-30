@@ -1,3 +1,4 @@
+import Loader from './components/Loader/Loader';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Celebrity from './components/Celebrity';
@@ -5,12 +6,14 @@ import Advertising from './components/Advertising';
 import Editorial from './components/Editorial';
 import About from './components/About';
 import Home from './components/Home';
-import Loader from './components/Loader/Loader';
+import { Header } from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Header />
+
       <Routes>
         <Route exact path="/" element={<Loader />}></Route>
         <Route exact path="/home" element={<Home />}></Route>
