@@ -4,15 +4,10 @@
 
 const Home = () => {
   return (
-<div>
-<center>
-			<img src={require("../img/ariana.white.png")} alt={"Ariana Weisner Logo"} style={{width: '80%'}}/>
-</center>
-<div class="section-center">
+      <center>
+    <div>
+    <div>
 
-  	</div>
-<center>
-<div>
 			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
   </div>
   <div>
@@ -25,11 +20,10 @@ const Home = () => {
     <hr />
   <div>
   <img src={require("../img/closet.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-
   </div> <hr />
 
-</center>
-      <center>
+      </div>
+
 
 <div class="mb-0">
 
@@ -52,7 +46,6 @@ Be the best dressed in the room </h1> */}
 
 	</div>
       </center>
-</div>
 )}
 
 
