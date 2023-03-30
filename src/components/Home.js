@@ -7,17 +7,21 @@ const Home = () => {
   return (
 <div>
 <center>
-			<img src={require("../img/ariana.white.png")} alt={"Ariana Weisner Logo"} style={{height: '100%'}}/>
+			<img src={require("../img/ariana.white.png")} alt={"Ariana Weisner Logo"} style={{width: '75%'}}/>
 </center>
 <div class="section-center">
 
-
   	</div>
+<center>
+			<img src={require("../img/styling.png")} alt={"Ariana Weisner Logo"} style={{width: '75%'}}/>
+      <img src={require("../img/ps.png")} alt={"Ariana Weisner Logo"} style={{width: '75%'}}/>
+
+</center>
       <center>
 
 <div class="mb-0">
 
-<ModalImage
+{/* <ModalImage
   small='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
   large='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
 
@@ -28,10 +32,10 @@ const Home = () => {
   small='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1477363325421-MWQ96FXGQJIIFRI9BKIF/art_56128e46dd379.jpg?format=1000w'
 
   alt="Fascina Collection"
-/>
-	<h1>Luxury fashion stylist curating looks for your individual
+/> */}
+	{/* <h1>Luxury fashion stylist curating looks for your individual
 style
-Be the best dressed in the room </h1>
+Be the best dressed in the room </h1> */}
 
 
 	</div>
