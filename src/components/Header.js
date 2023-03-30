@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-<div>
+<div className='header'>
 
 <center>
 			<img src={require("../img/ariana.white.png")} alt={"Ariana Weisner Logo"} style={{width: '80%'}}/>
