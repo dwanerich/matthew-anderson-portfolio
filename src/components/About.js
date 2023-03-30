@@ -4,7 +4,6 @@ const About = () => {
   return (
     <div>
       <h1 class="mb-0">ABOUT</h1>
-
       <div class="row" style={{ height: 1000 }}>
         <div class="column">
           <img src={require('../img/ariana-about.jpeg')} alt={'Ariana'} />
@@ -28,5 +27,16 @@ const About = () => {
     </div>
   );
 };
+// {/* <div>
+//   {/* <h1 class="mb-0">ABOUT</h1> */}
+
+//   <center>
+//     <img
+//       src={require('../img/about.png')}
+//       alt={'Ariana Weisner'}
+//       style={{ width: '75%' }}
+//     />
+//   </center>
+// </div>; */}
 
 export default About;

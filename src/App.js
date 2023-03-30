@@ -5,12 +5,14 @@ import Advertising from "./components/Advertising";
 import Editorial from "./components/Editorial";
 import About from "./components/About";
 import Home from "./components/Home";
+import { Header } from "./components/Header";
 
 
 function App() {
   return (
     <div className="App">
        <Navbar />
+       <Header />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/celebrity" element={<Celebrity />}></Route>
