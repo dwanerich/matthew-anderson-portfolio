@@ -7,7 +7,6 @@ const Home = () => {
       <center>
     <div>
     <div>
-
 			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
   </div>
   <div>
