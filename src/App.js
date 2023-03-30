@@ -6,13 +6,12 @@ import Advertising from './components/Advertising';
 import Editorial from './components/Editorial';
 import About from './components/About';
 import Home from './components/Home';
-import { Header } from './components/Header';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
 
       <Routes>
         <Route exact path="/" element={<Loader />}></Route>

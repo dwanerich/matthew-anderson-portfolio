@@ -1,32 +1,46 @@
 // import ModalImage from 'react-modal-image'
-
-
+import { Header } from './Header';
 
 const Home = () => {
   return (
-      <center>
-    <div>
-    <div>
-			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
-  </div>
-  <div>
-			<img src={require("../img/styling.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-  </div>
-  <hr />
-  <div>
-      <img src={require("../img/ps.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-  </div>
-    <hr />
-  <div>
-  <img src={require("../img/closet.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-  </div> <hr />
-
+    <center>
+      <Header />
+      <div>
+        <div>
+          <img
+            src={require('../img/tagline.png')}
+            alt={'Ariana Weisner'}
+            style={{ width: '100%' }}
+          />
+        </div>
+        <div>
+          <img
+            src={require('../img/styling.png')}
+            alt={'Ariana Weisner'}
+            style={{ width: '90%' }}
+          />
+        </div>
+        <hr />
+        <div>
+          <img
+            src={require('../img/ps.png')}
+            alt={'Ariana Weisner'}
+            style={{ width: '90%' }}
+          />
+        </div>
+        <hr />
+        <div>
+          <img
+            src={require('../img/closet.png')}
+            alt={'Ariana Weisner'}
+            style={{ width: '90%' }}
+          />
+        </div>{' '}
+        <hr />
       </div>
 
-
-<div class="mb-0">
-
-{/* <ModalImage
+      <div class="mb-0">
+        {/* <ModalImage
   small='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
   large='https://images.squarespace-cdn.com/content/v1/556ba425e4b016f4bc25c493/1568040494148-0WAS56ELQH3J06LB7TTF/The-Mighty-Company-1.0.0.jpg?format=1000w'
 
@@ -38,14 +52,12 @@ const Home = () => {
 
   alt="Fascina Collection"
 /> */}
-	{/* <h1>Luxury fashion stylist curating looks for your individual
+        {/* <h1>Luxury fashion stylist curating looks for your individual
 style
 Be the best dressed in the room </h1> */}
-
-
-	</div>
-      </center>
-)}
-
+      </div>
+    </center>
+  );
+};
 
 export default Home;

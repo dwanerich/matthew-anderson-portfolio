@@ -3,34 +3,33 @@ import classes from './Loader.module.css';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
+export const sentence = {
+  hidden: { opacity: 1, y: 100, fontFamily: 'Antic Didone' },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 3,
+      delay: 0.5,
+      staggerChildren: 0.12,
+    },
+  },
+};
+
+export const letter = {
+  hidden: {
+    opacity: 0,
+    y: 50,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+};
 const Loader = () => {
   const navigate = useNavigate();
   const line1 = '"Be The Best Dressed In The Room"';
   const line2 = '- Ariana Weisner';
-
-  const sentence = {
-    hidden: { opacity: 1, y: 100, fontFamily: 'Antic Didone' },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 3,
-        delay: 0.5,
-        staggerChildren: 0.12,
-      },
-    },
-  };
-
-  const letter = {
-    hidden: {
-      opacity: 0,
-      y: 50,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-    },
-  };
 
   let timeout = null;
 
