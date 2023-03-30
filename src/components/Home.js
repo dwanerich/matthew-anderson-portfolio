@@ -1,5 +1,4 @@
-// import './nav.css'
-import ModalImage from 'react-modal-image'
+// import ModalImage from 'react-modal-image'
 
 
 
@@ -13,17 +12,21 @@ const Home = () => {
 
   	</div>
 <center>
-  <div>
-			<img src={require("../img/styling.png")} alt={"Ariana Weisner"} style={{width: '85%'}}/>
+<div>
+			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
   </div>
   <div>
-      <img src={require("../img/ps.png")} alt={"Ariana Weisner"} style={{width: '85%'}}/>
+			<img src={require("../img/styling.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
   </div>
+  <hr />
+  <div>
+      <img src={require("../img/ps.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
+  </div>
+    <hr />
+  <div>
+  <img src={require("../img/closet.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
 
-  <div>
-  <img src={require("../img/closet.png")} alt={"Ariana Weisner"} style={{width: '85%'}}/>
-
-  </div>
+  </div> <hr />
 
 </center>
       <center>
