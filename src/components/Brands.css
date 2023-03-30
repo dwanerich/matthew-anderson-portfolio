@@ -6,10 +6,10 @@
 .slider ul {
   display: flex;
   padding: 0;
-  animation: cambio 8s infinite linear;
+  animation: cambio 25s infinite linear;
 }
 .slider li {
-  padding:0 10px;
+  padding:0 15px;
   list-style: none;
 }
 .slider img {
@@ -22,10 +22,12 @@
 }
 
 .pics {
-  height: 175px;
-  width: 175px;
+  height: 125px;
+  width: 125px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   border: solid .25px gray;
   border-radius: 30px;
 }
