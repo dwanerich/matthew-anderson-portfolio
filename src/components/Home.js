@@ -9,11 +9,12 @@ const Home = () => {
     <div>
     <div>
 			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
-  </div>
+  </div> <hr />
   <div>
 			<img src={require("../img/styling.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-  </div>
-  <hr />
+  </div> <hr />
+
+  <br />
   <div>
       <img src={require("../img/ps.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
   </div>
@@ -24,10 +25,10 @@ const Home = () => {
 
       </div>
 
-      < Brands />
 
 <div class="mb-0">
 
+      < Brands />
 
 	</div>
       </center>

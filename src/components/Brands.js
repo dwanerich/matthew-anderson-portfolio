@@ -4,6 +4,7 @@ import './Brands.css'
 export const Brands = () => {
   return (
 <div class="slider">
+
 <ul>
     <li>
         <img src="https://sarahstaceydesign.com/wp-content/uploads/2015/05/Architectural-Digest-Logo.jpg" className="pics" alt="" />
