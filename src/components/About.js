@@ -19,14 +19,6 @@ const About = () => {
   const lineArray = [line1, line2, line3, line4, line5];
   return (
     <div className={classes.aboutBody}>
-      {/* <center>
-        <img
-          src={require('../img/about.png')}
-          alt={'Ariana Weisner'}
-          style={{ width: '75%' }}
-        />
-      </center> */}
-
       <div className={classes.img_cont}>
         <img src={arianaImg} alt="ariana" />
       </div>
