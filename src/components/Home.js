@@ -10,7 +10,7 @@ const Home = () => {
     <div>
 			<img src={require("../img/a_w_style_banners.gif")} alt={"Ariana Weisner"} style={{width: '70%'}}/>
   </div>
-    {/* <div>
+    <div>
 			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
   <hr />
   </div>
@@ -25,7 +25,7 @@ const Home = () => {
 
   <div>
   <img src={require("../img/closet.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-  </div> */}
+  </div>
 
       </div>
 
