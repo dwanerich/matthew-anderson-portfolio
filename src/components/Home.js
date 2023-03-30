@@ -9,16 +9,17 @@ const Home = () => {
     <div>
     <div>
 			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
-  </div> <hr />
+  <hr />
+  </div>
   <div>
 			<img src={require("../img/styling.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
-  </div> <hr />
+  </div>
 
   <br />
   <div>
       <img src={require("../img/ps.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
   </div>
-    <hr />
+
   <div>
   <img src={require("../img/closet.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
   </div>

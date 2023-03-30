@@ -8,7 +8,7 @@ const About = () => {
   		{/* <h1 class="mb-0">ABOUT</h1> */}
 
       <center>
-			<img src={require("../img/about.png")} alt={"Ariana Weisner"} style={{width: '75%'}}/>
+			<img src={require("../img/about.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
       </center>
   </div>
 )}
