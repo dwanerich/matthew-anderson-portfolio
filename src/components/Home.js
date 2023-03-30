@@ -1,4 +1,5 @@
 // import ModalImage from 'react-modal-image'
+import { Brands } from "./Brands";
 
 
 
@@ -9,6 +10,7 @@ const Home = () => {
     <div>
 			<img src={require("../img/tagline.png")} alt={"Ariana Weisner"} style={{width: '100%'}}/>
   </div>
+      < Brands />
   <div>
 			<img src={require("../img/styling.png")} alt={"Ariana Weisner"} style={{width: '90%'}}/>
   </div>
