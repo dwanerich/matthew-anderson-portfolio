@@ -8,7 +8,6 @@ const About = () => {
         <div class="column">
           <img src={require('../img/ariana-about.jpeg')} alt={'Ariana'} />
         </div>
-
         <div class="column">
           <h1>
             Ariana Weisner started her love affair with fashion at a very young
@@ -27,16 +26,5 @@ const About = () => {
     </div>
   );
 };
-// {/* <div>
-//   {/* <h1 class="mb-0">ABOUT</h1> */}
-
-//   <center>
-//     <img
-//       src={require('../img/about.png')}
-//       alt={'Ariana Weisner'}
-//       style={{ width: '75%' }}
-//     />
-//   </center>
-// </div>; */}
 
 export default About;
