@@ -22,8 +22,10 @@
 }
 
 .pics {
-  height: 250px;
-  width: 250px;
+  height: 175px;
+  width: 175px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: solid .25px gray;
+  border-radius: 30px;
 }
