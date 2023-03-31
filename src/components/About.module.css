@@ -40,3 +40,21 @@
   line-height: 30px;
   font-size: 16px;
 }
+
+@media only screen and (max-width: 770px) {
+  .aboutBody {
+    flex-direction: column-reverse;
+  }
+  .aboutBody .img_cont {
+    width: 100%;
+    height: unset;
+    position: unset;
+  }
+
+  .aboutBody .text_area {
+    padding: 2rem 4rem;
+    width: 100%;
+    height: unset;
+    position: unset;
+  }
+}
