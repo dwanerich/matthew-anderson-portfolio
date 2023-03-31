@@ -23,7 +23,6 @@ const About = () => {
         <img src={arianaImg} alt="ariana" />
       </div>
       <div className={classes.text_area}>
-        <Header />
 
         <motion.h2
           initial={{ opacity: 0, y: '200px' }}
@@ -34,7 +33,7 @@ const About = () => {
               duration: 2,
             },
           }}
-        >
+          >
           Luxury Fashion Stylist, Curating Looks For Your Individual Style
         </motion.h2>
 
@@ -42,17 +41,17 @@ const About = () => {
           {' '}
           {lineArray.map((item, id) => (
             <motion.h4
-              key={id}
-              initial={{ opacity: 1, x: '60vw', fontFamily: 'Antic Didone' }}
-              animate={{
-                opacity: 1,
-                x: 0,
-                transition: {
-                  duration: 2,
-                  delay: 1.4,
-                  staggerChildren: 0.12,
-                },
-              }}
+            key={id}
+            initial={{ opacity: 1, x: '60vw', fontFamily: 'Antic Didone' }}
+            animate={{
+              opacity: 1,
+              x: 0,
+              transition: {
+                duration: 2,
+                delay: 1.4,
+                staggerChildren: 0.12,
+              },
+            }}
             >
               {item}
             </motion.h4>
@@ -60,6 +59,7 @@ const About = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
