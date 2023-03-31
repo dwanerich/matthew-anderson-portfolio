@@ -21,13 +21,15 @@ body {
 }
 
 .box:hover {
-  background-color: rgb(217, 214, 214);
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
   color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
   border-radius: 20px;
-  transition: ease-in .2s;
-  transition: ease-out .5s
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+  /* transition: ease-in .2s;
+  transition: ease-out .5s */
+  height: 110%;
+  width: 110%;
 
 }
 
