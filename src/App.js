@@ -7,13 +7,11 @@ import Editorial from './components/Editorial';
 import About from './components/About';
 import Home from './components/Home';
 import './App.css';
-import { Header } from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
 
       <Routes>
         <Route exact path="/" element={<Loader />}></Route>
