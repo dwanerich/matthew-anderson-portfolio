@@ -19,21 +19,21 @@ const Home = () => {
           <img
             src={require('../img/styling.png')}
             alt={'Ariana Weisner'}
-            style={{ width: '96%', borderRadius: '20px' }}
+            style={{ width: '95%', borderRadius: '20px' }}
           />
         </div>{' '}
         <div className="box">
           <img
             src={require('../img/ps.png')}
             alt={'Ariana Weisner'}
-            style={{ width: '96%', borderRadius: '20px' }}
+            style={{ width: '95%', borderRadius: '20px' }}
           />
         </div>
         <div className="box">
           <img
             src={require('../img/closet.png')}
             alt={'Ariana Weisner'}
-            style={{ width: '96%', borderRadius: '20px' }}
+            style={{ width: '95%', borderRadius: '20px' }}
           />
         </div>
       </div>
