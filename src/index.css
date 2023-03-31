@@ -22,15 +22,9 @@ body {
 
 .box:hover {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
-  color: white;
-  border-radius: 20px;
-  /* padding-top: 40px;
-  padding-bottom: 40px; */
-  /* transition: ease-in .2s;
-  transition: ease-out .5s */
-  height: 105%;
-  width: 105%;
-
+  border-radius: 50px;
+  height: 90%;
+  width: 90%;
 }
 
 .header {
