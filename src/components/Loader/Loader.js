@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import classes from './Loader.module.css';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { Header } from '../Header';
 
 export const sentence = {
   hidden: { opacity: 1, y: 100, fontFamily: 'Antic Didone' },
@@ -47,30 +48,33 @@ const Loader = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div className={classes.pageBody}>
-      <motion.h3
-        className={classes.headingText}
-        variants={sentence}
-        initial="hidden"
-        animate="visible"
-      >
-        {line1.split('').map((char, index) => {
-          return (
-            <motion.span key={char + '-' + index} variants={letter}>
-              {char}
-            </motion.span>
-          );
-        })}
-        <br />
-        {line2.split('').map((char, index) => {
-          return (
-            <motion.span key={char + '-' + index} variants={letter}>
-              {char}
-            </motion.span>
-          );
-        })}
-      </motion.h3>
-    </div>
+    <>
+      <Header />
+      <div className={classes.pageBody}>
+        <motion.h3
+          className={classes.headingText}
+          variants={sentence}
+          initial="hidden"
+          animate="visible"
+        >
+          {line1.split('').map((char, index) => {
+            return (
+              <motion.span key={char + '-' + index} variants={letter}>
+                {char}
+              </motion.span>
+            );
+          })}
+          <br />
+          {line2.split('').map((char, index) => {
+            return (
+              <motion.span key={char + '-' + index} variants={letter}>
+                {char}
+              </motion.span>
+            );
+          })}
+        </motion.h3>
+      </div>
+    </>
   );
 };
 
