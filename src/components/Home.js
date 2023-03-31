@@ -1,12 +1,10 @@
 // import ModalImage from 'react-modal-image'
-import { Header } from './Header';
 
 import { Brands } from './Brands';
 
 const Home = () => {
   return (
     <center>
-      <Header />
       <div>
         <div>
           <img
@@ -15,29 +13,26 @@ const Home = () => {
             style={{ width: '100%' }}
           />
         </div>{' '}
-        <hr />
         <div>
           <img
             src={require('../img/styling.png')}
             alt={'Ariana Weisner'}
-            style={{ width: '90%' }}
+            style={{ width: '100%' }}
           />
         </div>{' '}
-        <hr />
         <br />
         <div>
           <img
             src={require('../img/ps.png')}
             alt={'Ariana Weisner'}
-            style={{ width: '90%' }}
+            style={{ width: '100%' }}
           />
         </div>
-        <hr />
         <div>
           <img
             src={require('../img/closet.png')}
             alt={'Ariana Weisner'}
-            style={{ width: '90%' }}
+            style={{ width: '100%' }}
           />
         </div>
       </div>
