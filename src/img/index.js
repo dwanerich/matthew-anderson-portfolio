@@ -9,12 +9,12 @@ import barED from './editorial/Bar+1.jpg';
 import emmyED from './editorial/emmy_cover.jpg';
 import guy1ED from './editorial/Guy+Aroch+1.jpg';
 import guy2ED from './editorial/Guy+Aroch+2.png';
-import guy3ED from './editorial/Guy+Aroch+3.png';
+// import guy3ED from './editorial/Guy+Aroch+3..png';
 import guy4ED from './editorial/Guy+Aroch+4.jpg';
-import guy5ED from './editorial/Guy+Aroch+5.jpg';
+import guy5ED from '../img/editorial/Guy+Aroch+5.jpg';
 import guy6ED from './editorial/Guy+Aroch+6.jpg';
 import guy7ED from './editorial/Guy+Aroch+7.png';
-import guy8ED from './editorial/Guy+Aroch+8.png';
+// import guy8ED from './editorial/Guy+Aroch+8..png';
 import guy9ED from './editorial/Guy+Aroch+9.png';
 import jamED from './editorial/JAM.jpg';
 import jamieED from './editorial/jamie+1+.jpg';
@@ -41,7 +41,7 @@ import successED from './editorial/Success_2.jpeg';
 import success2ED from './editorial/success_sb.jpg';
 import susieED from './editorial/Susie+A.jpg';
 import unnamed1ED from './editorial/unnamed-1.jpg';
-import unnamed2ED from './editorial/unnamed.jpg';
+// import unnamed2ED from './editorial/unnamed.jpg';
 
 export const advertisingAssets = {};
 export const celebrityAssets = {};
@@ -57,12 +57,12 @@ export const editorialAssets = {
   emmyED,
   guy1ED,
   guy2ED,
-  guy3ED,
+  // guy3ED,
   guy4ED,
   guy5ED,
   guy6ED,
   guy7ED,
-  guy8ED,
+  // guy8ED,
   guy9ED,
   jamED,
   jamieED,
@@ -89,5 +89,5 @@ export const editorialAssets = {
   success2ED,
   susieED,
   unnamed1ED,
-  unnamed2ED,
+  // unnamed2ED,
 };
