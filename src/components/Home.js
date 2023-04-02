@@ -46,11 +46,8 @@ const Home = () => {
         </div>
         <br />
       </div>
-
-      {/* <div class="mb-0">
-        <Brands />
-        <br />
-      </div> */}
+      <Brands />
+      <br />
     </center>
   );
 };

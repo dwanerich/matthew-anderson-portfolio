@@ -1,15 +1,17 @@
 .slider {
-  width: 2179px;
-  margin: auto;
-  overflow: visible;
+  width: 80%;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
 }
 .slider ul {
+  width: 100%;
   display: flex;
   padding: 0;
   animation: cambio 25s infinite linear;
 }
 .slider li {
-  padding:0 15px;
+  padding: 0 15px;
   list-style: none;
 }
 .slider img {
@@ -17,8 +19,12 @@
   height: auto !important;
 }
 @keyframes cambio {
-  from {margin-left: 0%}
-  to {margin-left: -100%}
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: -100%;
+  }
 }
 
 .pics {
@@ -28,6 +34,6 @@
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  border: solid .25px gray;
+  border: solid 0.25px gray;
   border-radius: 30px;
 }
