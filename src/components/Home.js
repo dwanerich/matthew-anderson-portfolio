@@ -1,6 +1,7 @@
 // import ModalImage from 'react-modal-image'
-import { motion } from 'framer-motion';
 import { Header } from './Header';
+import Service from './Service/Service';
+import { serviceData } from '../helpers';
 
 const Home = () => {
   return (
@@ -14,36 +15,9 @@ const Home = () => {
             style={{ width: '90%', borderRadius: '40px' }}
           />
         </div>{' '}
-        <div className="box">
-          <motion.img
-            initial={{ opacity: 0, y: '200px' }}
-            animate={{ opacity: 1, y: 0, transition: { duration: 1.5 } }}
-            src={require('../img/styling.png')}
-            alt={'Ariana Weisner'}
-            style={{ width: '90%', borderRadius: '40px' }}
-          />
-        </div>{' '}
-        <br />
-        <div className="box">
-          <motion.img
-            initial={{ opacity: 0, x: '200px' }}
-            whileInView={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
-            src={require('../img/ps.png')}
-            alt={'Ariana Weisner'}
-            style={{ width: '90%', borderRadius: '40px' }}
-          />
-        </div>
-        <br />
-        <div className="box">
-          <motion.img
-            initial={{ opacity: 0, x: '-200px' }}
-            whileInView={{ opacity: 1, x: 0, transition: { duration: 1.5 } }}
-            src={require('../img/closet.png')}
-            alt={'Ariana Weisner'}
-            style={{ width: '90%', borderRadius: '40px' }}
-          />
-        </div>
-        <br />
+        {serviceData.map((service, id) => (
+          <Service key={id} serviceData={service} />
+        ))}
       </div>
       <br />
     </center>
