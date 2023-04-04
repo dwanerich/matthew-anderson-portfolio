@@ -6,6 +6,8 @@ import Advertising from './components/Advertising';
 import Editorial from './components/Editorial';
 import About from './components/About';
 import Home from './components/Home';
+import { Press } from './components/Press';
+import { Contact } from './components/Contact'
 import './App.css';
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
         <Route exact path="/advertising" element={<Advertising />}></Route>
         <Route exact path="/editorial" element={<Editorial />}></Route>
         <Route exact path="/about" element={<About />}></Route>
+        <Route exact path="/press" element={<Press />}></Route>
+        <Route exact path="/contact" element={<Contact />}></Route>
+
       </Routes>
     </div>
   );

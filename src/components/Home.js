@@ -1,6 +1,5 @@
 // import ModalImage from 'react-modal-image'
 import { motion } from 'framer-motion';
-import { Brands } from './Brands';
 import { Header } from './Header';
 
 const Home = () => {
@@ -46,7 +45,6 @@ const Home = () => {
         </div>
         <br />
       </div>
-      <Brands />
       <br />
     </center>
   );

@@ -13,18 +13,14 @@ const Navbar = () => {
   	<nav class="nav">
   		<ul class="pt-5">
         <li><a href="/">home</a></li>
-  			<li><a href="/editorial">editorial</a></li>
+  			{/* <li><a href="/editorial">editorial</a></li>
   			<li><a href="advertising">advertising</a></li>
-  			<li><a href="/celebrity">celebrity</a></li>
+  			<li><a href="/celebrity">celebrity</a></li> */}
   			<li><a href="/about">about</a></li>
+				<li><a href="/press">press</a></li>
+  			<li><a href="/contact">contact</a></li>
   		</ul>
   	</nav>
-
-  	{/* <div class="section-center">
-  		<h1 class="mb-0">ARIANA WEISNER</h1>
-      <h2 class="mb-0">STYLIST</h2>
-
-  	</div> */}
 </div>
   )
 
