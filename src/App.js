@@ -1,4 +1,3 @@
-import Loader from './components/Loader/Loader';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Celebrity from './components/Celebrity';
@@ -7,7 +6,7 @@ import Editorial from './components/Editorial';
 import About from './components/About';
 import Home from './components/Home';
 import { Press } from './components/Press';
-import { Contact } from './components/Contact'
+import { Contact } from './components/Contact';
 import './App.css';
 
 function App() {
@@ -16,15 +15,14 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route exact path="/" element={<Loader />}></Route>
-        <Route exact path="/home" element={<Home />}></Route>
-        <Route exact path="/celebrity" element={<Celebrity />}></Route>
-        <Route exact path="/advertising" element={<Advertising />}></Route>
-        <Route exact path="/editorial" element={<Editorial />}></Route>
-        <Route exact path="/about" element={<About />}></Route>
-        <Route exact path="/press" element={<Press />}></Route>
-        <Route exact path="/contact" element={<Contact />}></Route>
-
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/celebrity" element={<Celebrity />} />
+        <Route exact path="/advertising" element={<Advertising />} />
+        <Route exact path="/editorial" element={<Editorial />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/press" element={<Press />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
