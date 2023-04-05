@@ -1,9 +1,11 @@
 import React from 'react';
 import './Brands.css';
+import { Header } from './Header';
 
 export const Press = () => {
   return (
     <div class="slider">
+      <Header />
       <h1>press</h1>
       <ul>
         <li>

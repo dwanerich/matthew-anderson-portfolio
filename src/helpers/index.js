@@ -1,4 +1,6 @@
 import image1 from '../img/des.jpeg';
+import image2 from '../img/des1.png';
+
 
 export const deriveImageArrayFromCategory = (categoryAssets) => {
   const imageArray = [];
@@ -22,19 +24,19 @@ export const images = [
 export const serviceData = [
   {
     direction: 'basic',
-    headline: 'Fashion Stylist',
+    headline: 'fashion stylist',
     info: "From statement pieces to classic looks, I'll work with you to create a wardrobe that's both on-trend and uniquely you.",
     image: image1,
   },
   {
     direction: 'reverse',
-    headline: 'Personal Shopper',
+    headline: 'personal shopper',
     info: "From the latest trends to timeless classics, I'll help you find pieces that flatter your figure, accentuate your best features, and make you feel confident and beautiful.",
-    image: image1,
+    image: image2,
   },
   {
     direction: 'basic',
-    headline: 'Closet Analyst',
+    headline: 'closet analyst',
     info: "I'll work with you to assess your current wardrobe, identify what's working, and eliminate what's not.",
     image: image1,
   },
