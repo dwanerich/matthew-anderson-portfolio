@@ -1,14 +1,13 @@
 import MyWrapper from './MyWrapper';
 import './nav.css';
-import { images } from '../helpers';
+import { advertisingAssets } from '../img';
+import { deriveImageArrayFromCategory } from '../helpers';
 
 const Advertising = () => {
+  const images = deriveImageArrayFromCategory(advertisingAssets);
   return (
     <div>
-      <div class="">
-        <h1 class="mb-0">ADVERTISING</h1>
-        <MyWrapper imageData={images} />
-      </div>
+      <MyWrapper imageData={images} />
     </div>
   );
 };
