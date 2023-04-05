@@ -1,4 +1,4 @@
-import image1 from '../img/des.jpeg';
+import image1 from '../img/des.png';
 import image2 from '../img/des1.png';
 
 
