@@ -15,6 +15,8 @@ const Home = () => {
             style={{ width: '90%', borderRadius: '40px' }}
           />
         </div>{' '}
+        <br />
+        <br />
         {serviceData.map((service, id) => (
           <Service key={id} serviceData={service} />
         ))}
