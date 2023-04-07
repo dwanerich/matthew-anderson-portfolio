@@ -15,24 +15,24 @@ const Service = ({ serviceData }) => {
   const showOptions = async () => {
     await exploreControl.start({
       opacity: 0,
-      y: '-200px',
+      y: '-150px',
 
       transition: { duration: 1 },
     });
     await optionsControl.start({
       opacity: 1,
-      y: 0,
+      y: '20px',
       display: 'flex',
       transition: { duration: 1.5 },
     });
     await exploreControl.start({
-      display: 'none',
+      visibility: 'hidden',
     });
   };
 
   const reverseOptions = async () => {
     await exploreControl.start({
-      display: 'flex',
+      visibility: 'visible',
     });
     await optionsControl.start({
       opacity: 0,
