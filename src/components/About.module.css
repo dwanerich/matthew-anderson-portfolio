@@ -47,13 +47,11 @@
 @media only screen and (max-width: 770px) {
   .aboutBody {
     flex-direction: column-reverse;
-
   }
   .aboutBody .img_cont {
     width: 100%;
     height: unset;
     position: unset;
-
   }
 
   .aboutBody .text_area {

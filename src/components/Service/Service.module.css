@@ -102,7 +102,7 @@
   }
   .serviceContainer .callToAction,
   .serviceContainer .imgCont {
-    margin-bottom: 50px;
+    margin: 50px auto;
   }
   .imgCont .bannerImg {
     max-height: 400px;
