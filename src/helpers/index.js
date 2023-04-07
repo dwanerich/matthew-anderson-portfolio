@@ -1,5 +1,7 @@
 import image1 from '../img/des.png';
 import image2 from '../img/des1.png';
+import image3 from '../img/closet_analyst.png';
+
 
 export const deriveImageArrayFromCategory = (categoryAssets) => {
   const imageArray = [];
@@ -52,7 +54,7 @@ export const serviceData = [
     direction: 'basic',
     headline: 'closet analyst',
     info: "I'll work with you to assess your current wardrobe, identify what's working, and eliminate what's not.",
-    image: image1,
+    image: image3,
     options: [],
   },
 ];
