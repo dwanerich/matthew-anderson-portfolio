@@ -8,13 +8,14 @@ const Home = () => {
     <center>
       <Header />
       <div>
-        <div>
+        {/* <div>
           <img
             src={require('../img/tagline.png')}
             alt={'Ariana Weisner'}
             style={{ width: '90%', borderRadius: '40px' }}
           />
-        </div>{' '}
+        </div> */}
+        {' '}
         <br />
         <br />
         {serviceData.map((service, id) => (

@@ -1,6 +1,6 @@
-import image1 from '../img/des.png';
-import image2 from '../img/des1.png';
-import image3 from '../img/closet_analyst.png';
+import image1 from '../img/styling.png';
+import image2 from '../img/ps.png';
+import image3 from '../img/closet.png';
 
 
 export const deriveImageArrayFromCategory = (categoryAssets) => {

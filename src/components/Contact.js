@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './Header';
 import classes from './contact.module.css';
-import arianaImg from '../img/celebrity/611470744-612x612.jpg';
+import matthewImg from '../img/bio-pic.jpg';
 import { Button, TextField } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 
@@ -47,7 +47,7 @@ export const Contact = () => {
         </div>
       </div>
       <div className={classes.img_cont}>
-        <img src={arianaImg} alt="ariana" />
+        <img src={matthewImg} alt="ariana" />
       </div>
     </div>
   );

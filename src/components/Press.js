@@ -7,7 +7,7 @@ export const Press = () => {
     <div class="slider">
       <Header />
       <h1>press</h1>
-      <ul>
+      {/* <ul>
         <li>
           <img
             src="https://sarahstaceydesign.com/wp-content/uploads/2015/05/Architectural-Digest-Logo.jpg"
@@ -76,7 +76,7 @@ export const Press = () => {
             alt=""
           />
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };

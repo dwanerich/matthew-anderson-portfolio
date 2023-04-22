@@ -1,12 +1,12 @@
 import './nav.css';
-import arianaImg from '../img/advertising/xesika-alessandra-foto2.jpg.pagespeed.ic.sSX5Tf7OIH.jpg';
+import matthewImg from '../img/bio-pic.jpg';
 import classes from './About.module.css';
 import { Header } from './Header';
 import { motion } from 'framer-motion';
 
 const About = () => {
   const line1 =
-    'Ariana Weisner started her love affair with fashion at a very young age.';
+    "Matthew Anderson, born in Saint Louis, MO, has always had a flare for all things creative. He began his artistic expression through the performing arts from childhood until early teen years. He was educated in Catholic private schools, where he had to always had to wear uniforms. That changed in his sophomore year of high school when he attended Central Visual & Performing Arts. Being able to dress himself daily sparked the passion for fashion that would become his life.";
   const line2 =
     "At 17 years old, she moved to Paris, France for the summer to study fashion design at Parson's School of Design.";
 
@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div className={classes.aboutBody}>
       <div className={classes.img_cont}>
-        <img src={arianaImg} alt="ariana" />
+        <img src={matthewImg} alt="ariana" />
       </div>
       <div className={classes.text_area}>
         <Header />
@@ -34,7 +34,7 @@ const About = () => {
             },
           }}
         >
-          Luxury Fashion Stylist, Curating Looks For Your Individual Style
+          Luxury Fashion Stylist + Image Curator
         </motion.h2>
 
         <div>
