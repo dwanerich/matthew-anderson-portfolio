@@ -8,7 +8,7 @@ export const Header = () => {
         <img
           src={matthewLogo}
           alt="Matthew Logo"
-          style={{ width: '40%' }}
+          style={{ width: '50%' }}
         />
       </center>
       <div class="section-center"></div>
