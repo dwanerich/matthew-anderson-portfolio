@@ -2,19 +2,21 @@
 import { Header } from './Header';
 import Service from './Service/Service';
 import { serviceData } from '../helpers';
+// import ReactPlayer from "react-player"
 
 const Home = () => {
   return (
-    <center>
+    <center style={{backgroundColor: 'black'}}>
       <Header />
       <div>
-        {/* <div>
+
+        <div>
           <img
-            src={require('../img/tagline.png')}
-            alt={'Ariana Weisner'}
-            style={{ width: '90%', borderRadius: '40px' }}
+            src={require('../img/full_service.gif')}
+            alt={'services'}
+            style={{ width: '70%', borderRadius: '40px' }}
           />
-        </div> */}
+        </div>
         {' '}
         <br />
         <br />

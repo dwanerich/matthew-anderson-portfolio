@@ -8,8 +8,8 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.7;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
   /* overflow: hidden; */
   /* background-image: url('./img/nicole_richie_1.png');
   background-position: center;
@@ -244,7 +244,7 @@ h2 {
 }
 .nav ul li a:hover {
   text-decoration: none;
-  color: #8d8d4e;
+  color: #327ce2;
 }
 .nav ul li a:after {
   display: block;

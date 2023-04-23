@@ -1,26 +1,27 @@
 import './nav.css';
-import matthewImg from '../img/bio-pic.jpg';
+import servicesImg from '../img/about-services.gif';
 import classes from './About.module.css';
 import { Header } from './Header';
 import { motion } from 'framer-motion';
 
 const About = () => {
   const line1 =
-    "Matthew Anderson, born in Saint Louis, MO, has always had a flare for all things creative. He began his artistic expression through the performing arts from childhood until early teen years. He was educated in Catholic private schools, where he had to always had to wear uniforms. That changed in his sophomore year of high school when he attended Central Visual & Performing Arts. Being able to dress himself daily sparked the passion for fashion that would become his life.";
+  "Welcome to Take Two Entertainment!"
   const line2 =
-    "At 17 years old, she moved to Paris, France for the summer to study fashion design at Parson's School of Design.";
+    "Our mission is to provide comprehensive and personalized artist management services to help our clients achieve their goals and maximize their potential in the music industry.";
 
   const line3 =
-    'A few years later she began interning for the most famous brand in the world synonymous with fashion, Vogue Magazine.';
+  "Services: Artist Development: We offer personalized artist development services to help our clients hone their skills, develop their brand, and create a compelling image that resonates with their audience. Booking and Touring We work with our clients to book shows and tours that showcase their talent and build their fan base. We handle all aspects of touring logistics, from transportation and accommodations to promotion and marketing. Marketing and Publicity: We create and execute comprehensive marketing and publicity campaigns that help our clients build their brand and reach new fans. Our services include social media management, press releases, and media outreach.Record Label Liaison: We work closely with record labels to help our clients navigate the music industry landscape and negotiate deals that are in their best interests.Financial Management: We provide financial management services that help our clients make informed decisions about their career and maximize their earnings potential. Our services include budgeting, accounting, and tax preparation."
+
   const line4 =
-    'Honing in on her skills and her love for styling, Ariana then went on to assist two fo the biggest stylists in the industry. Nicole chavez and Jessica Paster. ';
+  "";
   const line5 =
-    'Throughout the years Ariana has gained ast knowledge in all aspects of styling including red carpet, editorial, advertising, and street style';
+    "";
   const lineArray = [line1, line2, line3, line4, line5];
   return (
     <div className={classes.aboutBody}>
       <div className={classes.img_cont}>
-        <img src={matthewImg} alt="ariana" />
+        <img src={servicesImg} alt="services" />
       </div>
       <div className={classes.text_area}>
         <Header />

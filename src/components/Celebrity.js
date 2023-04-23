@@ -6,7 +6,7 @@ const Celebrity = () => {
   const images = deriveImageArrayFromCategory(celebrityAssets);
   return (
     <div>
-      <MyWrapper imageData={images} />
+      {/* <MyWrapper imageData={images} /> */}
     </div>
   );
 };

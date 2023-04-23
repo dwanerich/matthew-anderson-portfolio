@@ -1,6 +1,6 @@
-import image1 from '../img/styling.png';
-import image2 from '../img/ps.png';
-import image3 from '../img/closet.png';
+import image1 from '../img/take-two-logo.gif';
+import image2 from '../img/beautiful.png';
+import image3 from '../img/myhood.png';
 
 
 export const deriveImageArrayFromCategory = (categoryAssets) => {
@@ -25,35 +25,35 @@ export const images = [
 export const serviceData = [
   {
     direction: 'basic',
-    headline: 'fashion stylist',
-    info: "From statement pieces to classic looks, I'll work with you to create a wardrobe that's both on-trend and uniquely you.",
+    headline: 'services',
+    info: "",
     image: image1,
     options: [
       {
-        optionName: 'Advertising',
+        optionName: 'Management',
         url: 'advertising',
       },
       {
-        optionName: 'Editorial',
+        optionName: 'Marketing',
         url: 'editorial',
       },
       {
-        optionName: 'Celebrity',
+        optionName: 'Songwriting',
         url: 'celebrity',
       },
     ],
   },
   {
     direction: 'reverse',
-    headline: 'personal shopper',
-    info: "From the latest trends to timeless classics, I'll help you find pieces that flatter your figure, accentuate your best features, and make you feel confident and beautiful.",
+    headline: 'CEO',
+    info: "JAMES KNIGHT - BEAUTIFUL",
     image: image2,
     options: [],
   },
   {
     direction: 'basic',
     headline: 'closet analyst',
-    info: "I'll work with you to assess your current wardrobe, identify what's working, and eliminate what's not.",
+    info: "VS THE KING - THATS MY HOOD",
     image: image3,
     options: [],
   },

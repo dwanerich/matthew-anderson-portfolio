@@ -18,9 +18,9 @@ const Navbar = () => {
           <li>
             <a href="/about">about</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/press">press</a>
-          </li>
+          </li> */}
           <li>
             <a href="/contact">contact</a>
           </li>

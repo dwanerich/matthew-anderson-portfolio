@@ -11,7 +11,7 @@ const Editorial = () => {
   const images = deriveImageArrayFromCategory(editorialAssets);
   return (
     <div>
-      <MyWrapper imageData={images} />
+      {/* <MyWrapper imageData={images} /> */}
     </div>
   );
 };

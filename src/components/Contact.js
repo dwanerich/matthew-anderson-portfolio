@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './Header';
 import classes from './contact.module.css';
-import matthewImg from '../img/bio-pic.jpg';
+import take2Img from '../img/about-services.gif';
 import { Button, TextField } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 
@@ -9,9 +9,8 @@ export const Contact = () => {
   return (
     <div className={classes.contactBody}>
       <div className={classes.text_area}>
-        <Header />
 
-        <h1>Contact Me</h1>
+        <h1 className='h1'>Contact Us</h1>
 
         <div className={classes.form}>
           <TextField
@@ -41,13 +40,13 @@ export const Contact = () => {
             variant="standard"
           />
           <Button className={classes.button}>
-            Hit Me Up &nbsp;{' '}
+            Hit Us Up &nbsp;{' '}
             <SendIcon fontSize="12px" className={classes.icon} />
           </Button>
         </div>
       </div>
       <div className={classes.img_cont}>
-        <img src={matthewImg} alt="ariana" />
+        <img src={take2Img} alt="take two" />
       </div>
     </div>
   );
