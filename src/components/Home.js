@@ -10,6 +10,11 @@ const Home = () => {
       <Header />
       <div>
 
+        <br />
+        <br />
+        <br />
+        <br />
+
         <div>
           {/* <img
             src={require('../img/full_service.gif')}
@@ -18,7 +23,6 @@ const Home = () => {
           /> */}
         </div>
         {' '}
-        <br />
         <br />
 
         <img

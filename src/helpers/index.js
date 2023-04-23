@@ -44,17 +44,17 @@ export const serviceData = [
     ],
   },
   {
-    direction: 'reverse',
-    headline: 'CEO',
-    info: "JAMES KNIGHT - BEAUTIFUL",
-    image: image2,
-    options: [],
-  },
-  {
     direction: 'basic',
     headline: 'closet analyst',
     info: "VS THE KING - THATS MY HOOD",
     image: image3,
+    options: [],
+  },
+  {
+    direction: 'reverse',
+    headline: 'CEO',
+    info: "JAMES KNIGHT - BEAUTIFUL",
+    image: image2,
     options: [],
   },
 ];
