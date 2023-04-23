@@ -11,15 +11,21 @@ const Home = () => {
       <div>
 
         <div>
-          <img
+          {/* <img
             src={require('../img/full_service.gif')}
             alt={'services'}
             style={{ width: '70%', borderRadius: '40px' }}
-          />
+          /> */}
         </div>
         {' '}
         <br />
         <br />
+
+        <img
+            src={require('../img/full_service.gif')}
+            alt={'services'}
+            style={{ width: '70%', borderRadius: '40px' }}
+          />
         {serviceData.map((service, id) => (
           <Service key={id} serviceData={service} />
         ))}
