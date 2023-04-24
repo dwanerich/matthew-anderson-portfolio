@@ -68,7 +68,7 @@ const Service = ({ serviceData }) => {
 
               <p>{info}</p>
               <button onClick={options.length > 0 ? showOptions : () => {}}>
-                Explore
+                Services
               </button>
             </motion.div>
             {options.length > 0 ? (
@@ -114,7 +114,7 @@ const Service = ({ serviceData }) => {
                 transition: { duration: 1.5 },
               }}
               src={image}
-              alt={'Ariana Weisner'}
+              alt={'Take Two'}
               className={classes.bannerImg}
             />
           </div>

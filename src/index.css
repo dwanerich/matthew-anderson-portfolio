@@ -297,6 +297,15 @@ h2 {
   display: block;
 }
 
+.covers {
+  border: solid .25px white;
+
+}
+
+.covers:hover {
+
+}
+
 @media screen and (max-width: 991px) {
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label {

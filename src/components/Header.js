@@ -1,5 +1,5 @@
 import React from 'react';
-import take2Logo from '../img/take-two-logo.gif';
+import take2Logo from '../img/take-two-wide.png';
 
 export const Header = () => {
   return (
@@ -8,7 +8,7 @@ export const Header = () => {
         <img
           src={take2Logo}
           alt="Take Two Logo"
-          style={{ width: '25%',
+          style={{ width: '33%',
         backgroundColor: 'black'}}
         />
       </center>
