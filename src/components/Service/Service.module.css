@@ -8,6 +8,11 @@
   justify-content: space-evenly;
   align-items: center;
   border-radius: 40px;
+  margin-top: -125px;
+  color: white;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: x-large;
+
 }
 .serviceContainer:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
@@ -62,6 +67,7 @@
   font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
   text-transform: capitalize;
+  color: rgb(9, 161, 255);
 }
 .callToAction button {
   margin-top: 30px;
@@ -69,7 +75,7 @@
   min-width: 150px;
   border: none;
   outline: none;
-  background: #000000;
+  background: black;
   color: #ffffff;
   cursor: pointer;
   font-family: 'Raleway', sans-serif !important;
@@ -110,6 +116,7 @@
   .callToAction h2 {
     font-size: 50px;
     line-height: 40px;
+    color: yellow;
   }
 }
 

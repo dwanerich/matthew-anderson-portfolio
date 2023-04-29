@@ -34,7 +34,6 @@ const Home = () => {
           <Service key={id} serviceData={service} />
         ))}
       </div>
-      <br />
     </center>
   );
 };

@@ -68,7 +68,7 @@ const Service = ({ serviceData }) => {
 
               <p>{info}</p>
               <button onClick={options.length > 0 ? showOptions : () => {}}>
-                Services
+                More
               </button>
             </motion.div>
             {options.length > 0 ? (
@@ -136,7 +136,7 @@ const Service = ({ serviceData }) => {
 
               <p>{info}</p>
               <button onClick={options.length > 0 ? showOptions : () => {}}>
-                Explore
+                More
               </button>
             </motion.div>
             {options.length > 0 ? (
