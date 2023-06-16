@@ -1,7 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Celebrity from './components/Celebrity';
-import Management from './components/Management';
 import About from './components/About';
 import Home from './components/Home';
 import { Press } from './components/Press';
