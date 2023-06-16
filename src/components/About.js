@@ -1,15 +1,14 @@
 import './nav.css';
-import servicesImg from '../img/about-services.gif';
+import servicesImg from '../img/views.jpg';
 import classes from './About.module.css';
 import { Header } from './Header';
 import { motion } from 'framer-motion';
 
 const About = () => {
   const line1 =
-  "Welcome to Take Two Entertainment!"
+  "Welcome to Raw Child!"
   const line2 =
-    "Our mission is to provide comprehensive and personalized artist management services to help our clients achieve their goals and maximize their potential in the music industry.";
-
+"Where we come from, we couldn’t afford a Therapy so Music became our therapy., it’s my savior, it saved me from suicide, Depression, it gives me Purpose & Passion in Life, if i never made in the industry I still would be makin music as my hobby…The Money and Fame is just a Plus…It’s the Motivation."
   const line3 = ""
   const line4 =
   "";

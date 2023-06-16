@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './Header';
 import classes from './contact.module.css';
-import take2Img from '../img/about-services.gif';
+import take2Img from '../img/raw-child-logo.jpg';
 import { Button, TextField } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 

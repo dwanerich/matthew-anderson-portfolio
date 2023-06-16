@@ -1,6 +1,6 @@
-import image2 from '../img/baddie_cover-art.png';
-import image1 from '../img/about-services.gif';
-import image3 from '../img/myhood.png';
+import image2 from '../img/Chop_Cheese.jpg';
+import image1 from '../img/Champagne_Chinese_Food.jpg';
+import image3 from '../img/Chop_Cheese.jpg';
 
 
 export const deriveImageArrayFromCategory = (categoryAssets) => {
@@ -16,7 +16,7 @@ export const deriveImageArrayFromCategory = (categoryAssets) => {
 export const serviceData = [
   {
     direction: 'basic',
-    headline: 'services',
+    headline: 'MUSIC',
     info: "",
     image: image1,
     options: [
@@ -36,15 +36,15 @@ export const serviceData = [
   },
   {
     direction: 'reverse',
-    headline: 'VS THE KING',
-    info: "BADDIE (COMING SOON)",
+    headline: 'JOE PHANTOM',
+    info: "CHOP CHEESE",
     image: image2,
     options: [],
   },
   {
     direction: 'basic',
-    headline: 'VS THE KING',
-    info: "THATS MY HOOD",
+    headline: 'JOE PHANTOM',
+    info: "CHAMPAGE & CHINESE FOOD",
     image: image3,
     options: [],
   },

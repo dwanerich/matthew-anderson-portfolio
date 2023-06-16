@@ -25,11 +25,11 @@ const Home = () => {
         {' '}
         <br />
 
-        <img
+        {/* <img
             src={require('../img/full_service.gif')}
             alt={'services'}
             style={{ width: '70%', borderRadius: '40px' }}
-          />
+          /> */}
         {serviceData.map((service, id) => (
           <Service key={id} serviceData={service} />
         ))}
